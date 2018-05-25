@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"parcel index.html\" \"twitter-proxy twitter.json\"",
+    "test": "jest"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "http-proxy": "^1.17.0",
+    "jest": "^23.0.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "superagent": "^3.8.3",
+    "tweetserver": "0.0.6",
+    "twitter-proxy": "^2.0.0"
+  }
+}
